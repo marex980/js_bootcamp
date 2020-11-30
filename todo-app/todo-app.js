@@ -84,3 +84,11 @@ const addTodo = document.querySelector("#add-todo");
 addTodo.addEventListener("input", function (e) {
   console.log(e.target.value);
 });
+
+/*
+ Create a form with a single input for todo text
+ setup an submit handler and cancel the deafult action
+ add a new item to the todos array with that text data (completed value of false)
+ Rerender the application
+ Clear the input field value
+*/
